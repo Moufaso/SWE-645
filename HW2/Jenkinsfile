@@ -1,7 +1,7 @@
 // Author: Saman Hosseini
 
 pipeline {
-   agent: any
+   agent: Gany
 
    enviroment {
       DOCKERHUB_CRED = credentials('dockerhub-id')
